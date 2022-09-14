@@ -1,20 +1,6 @@
-<!DOCTYPE HTML>
 <html lang="en">
    <head>
-      <title>textbook archive</title>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <meta name="description" content="sk1lark.github.io" />
-      <meta property="og:site_name" content="textbook archive" />
-      <meta property="og:title" content="textbook archive" />
-      <meta property="og:type" content="website" />
-      <meta property="og:description" content="sk1lark.github.io" />
-      <meta property="og:image" content="https://txtbk.carrd.co/assets/images/card.jpg?v=99b4c247" />
-      <meta property="og:image:type" content="image/jpeg" />
-      <meta property="og:image:width" content="1280" />
-      <meta property="og:image:height" content="800" />
-      <meta property="og:url" content="https://txtbk.carrd.co" />
-      <meta property="twitter:card" content="summary_large_image" />
+      <title>Textbook Archive</title>
       <link rel="canonical" href="https://txtbk.carrd.co" />
       <style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
          margin:0;
