@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click Test</title>
+</head>
+<body>
+    <div id="start-button" style="background: red; color: white; padding: 10px; cursor: pointer;">
+        Start Button Test
+    </div>
+    
+    <div id="desktop-icon" data-app="notepad" style="background: blue; color: white; padding: 10px; cursor: pointer; margin: 10px 0;">
+        Desktop Icon Test
+    </div>
+    
+    <script>
+        console.log('Test page loaded');
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded');
+            
+            const startBtn = document.getElementById('start-button');
+            const icon = document.getElementById('desktop-icon');
+            
+            console.log('Start button:', startBtn);
+            console.log('Icon:', icon);
+            
+            if (startBtn) {
+                startBtn.addEventListener('click', function() {
+                    console.log('Start button clicked!');
+                    alert('Start button works!');
+                });
+            }
+            
+            if (icon) {
+                icon.addEventListener('click', function() {
+                    console.log('Icon clicked!');
+                    alert('Icon works!');
+                });
+            }
+            
+            // Test generic click
+            document.addEventListener('click', function(e) {
+                console.log('Click detected:', e.target);
+            });
+        });
+    </script>
+</body>
+</html>
