@@ -1,2 +1,2 @@
 # sk1lark.tech
-  by hayden park
+  the personal website of hayden park ~
