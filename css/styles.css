@@ -1506,7 +1506,7 @@ body {
 
 .window:focus-within,
 .window.active {
-    z-index: 200;
+    z-index: 2100; /* Higher than main window */
 }
 
 .window.inactive .title-bar {
@@ -1515,6 +1515,7 @@ body {
 
 .window.dragging {
     transition: none;
+    z-index: 2200 !important; /* Ensure dragged windows are always on top */
     box-shadow: 
         4px 4px 8px rgba(0,0,0,0.4),
         inset 1px 1px 0 rgba(255,255,255,0.3),

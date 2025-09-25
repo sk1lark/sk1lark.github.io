@@ -1159,7 +1159,7 @@ function initializeWindowDragging() {
                 w.classList.remove('active');
                 w.classList.add('inactive');
             });
-            activeWindow.style.zIndex = 999;
+            activeWindow.style.zIndex = 2100; // Higher than main window (2000)
             activeWindow.classList.remove('inactive');
             activeWindow.classList.add('active');
             
@@ -5315,7 +5315,7 @@ function openNotepadWithContent(content) {
     
     notepadWindow.classList.add('active');
     notepadWindow.style.display = 'flex';
-    notepadWindow.style.zIndex = '200';
+    notepadWindow.style.zIndex = getHighestZIndex() + 1;
     
     // Update title to show it's a different file
     if (titleBar && content.includes('backup')) {
@@ -5387,7 +5387,7 @@ function openCozyFolder() {
     
     folderWindow.classList.add('active');
     folderWindow.style.display = 'flex';
-    folderWindow.style.zIndex = '200';
+    folderWindow.style.zIndex = getHighestZIndex() + 1;
 }
 
 function showFakeNotification() {
