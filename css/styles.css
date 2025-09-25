@@ -609,6 +609,28 @@ body {
     51%, 100% { opacity: 0.3; }
 }
 
+/* Special styling for brian's entry */
+.aol-buddy.brian-special {
+    animation: brian-glow 2s ease-in-out infinite alternate;
+    background: linear-gradient(45deg, #ffeaa7, #fab1a0);
+    border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(255, 192, 203, 0.6);
+}
+
+@keyframes brian-glow {
+    0% {
+        background: linear-gradient(45deg, #ffeaa7, #fab1a0);
+        box-shadow: 0 0 8px rgba(255, 192, 203, 0.6);
+        transform: scale(1);
+    }
+    100% {
+        background: linear-gradient(45deg, #fab1a0, #ffeaa7);
+        box-shadow: 0 0 15px rgba(255, 192, 203, 0.9);
+        transform: scale(1.02);
+    }
+}
+
 .aol-bottom-bar {
     background: #f0f0f0;
     border-top: 1px solid #808080;
