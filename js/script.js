@@ -1397,7 +1397,7 @@ function showWebsiteShortcut() {
             <center>
                 <h2>brian's totally awesome homepage!</h2>
                 <p>welcome to my corner of the world wide web!</p>
-                <div style="font-size: 24px; color: #ff6600; font-weight: bold;">🚧 UNDER CONSTRUCTION 🚧</div>
+                <div style="font-size: 24px; color: #ff6600; font-weight: bold;">🚧</div>
                 <p><strong>this page is under construction!</strong></p>
                 <p>check back soon for updates!</p>
                 <p>last updated: february 14, 2025</p>
@@ -2309,6 +2309,8 @@ function openApp(appName) {
             initializePaint();
         } else if (appName === 'winamp') {
             initializeWinamp();
+        } else if (appName === 'poker') {
+            initializePoker();
         } else if (appName === 'terminal') {
             // Terminal is already initialized on load
             const terminalInput = document.getElementById('terminal-input');
@@ -3959,6 +3961,10 @@ function initializePoker() {
     const gameArea = document.querySelector('#poker-window .window-content');
     if (!gameArea) return;
     
+    // Prevent multiple initializations
+    if (gameArea.dataset.initialized === 'true') return;
+    gameArea.dataset.initialized = 'true';
+    
     let chips = 1000;
     let currentBet = 25;
     let deck = [];
@@ -4189,10 +4195,15 @@ function initializePoker() {
     }
     
     // Event listeners
-    document.getElementById('new-hand-btn').addEventListener('click', dealNewHand);
-    document.getElementById('hit-btn').addEventListener('click', hit);
-    document.getElementById('stand-btn').addEventListener('click', stand);
-    document.getElementById('fold-btn').addEventListener('click', fold);
+    const newHandBtn = document.getElementById('new-hand-btn');
+    const hitBtn = document.getElementById('hit-btn');
+    const standBtn = document.getElementById('stand-btn');
+    const foldBtn = document.getElementById('fold-btn');
+    
+    if (newHandBtn) newHandBtn.addEventListener('click', dealNewHand);
+    if (hitBtn) hitBtn.addEventListener('click', hit);
+    if (standBtn) standBtn.addEventListener('click', stand);
+    if (foldBtn) foldBtn.addEventListener('click', fold);
     
     // Bet controls
     document.querySelectorAll('.bet-btn').forEach(btn => {
