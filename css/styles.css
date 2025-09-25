@@ -1154,11 +1154,11 @@ body {
 }
 
 .desktop-icon[data-app="solitaire"] .icon {
-    background-image: url('../media/All [Without duplicates]/Solitaire.ico');
+    background-image: url('../media/All [Without duplicates]/Star.ico');
 }
 
 .desktop-icon[data-app="winamp"] .icon {
-    background-image: url('../media/All [Without duplicates]/Media Player.ico');
+    background-image: url('../media/All [Without duplicates]/Music Disc.ico');
 }
 
 .desktop-icon[data-app="folder"] .icon {
@@ -1219,19 +1219,23 @@ body {
 .title-bar-icon[data-app="notepad"] { background-image: url('../media/All [Without duplicates]/Notepad.ico'); }
 .title-bar-icon[data-app="calculator"] { background-image: url('../media/All [Without duplicates]/Calculator.ico'); }
 .title-bar-icon[data-app="paint"] { background-image: url('../media/All [Without duplicates]/Paint.ico'); }
-.title-bar-icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Solitaire.ico'); }
-.title-bar-icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Media Player.ico'); }
-.title-bar-icon[data-app="my-documents"] { background-image: url('../media/All [Without duplicates]/My Documents.ico'); }
-.title-bar-icon[data-app="internet"] { background-image: url('../media/All [Without duplicates]/Internet.ico'); }
+.title-bar-icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Star.ico'); }
+.title-bar-icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Joy.ico'); }
+.title-bar-icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Music Disc.ico'); }
+.title-bar-icon[data-app="my-documents"] { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); }
+.title-bar-icon[data-app="internet"] { background-image: url('../media/All [Without duplicates]/IE Disc.ico'); }
+.title-bar-icon[data-app="messenger"] { background-image: url('../media/All [Without duplicates]/Chat.ico'); }
 
 /* Legacy window-specific mappings */
 #notepad-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Notepad.ico'); }
 #calculator-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Calculator.ico'); }
 #mspaint-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Paint.ico'); }
-#solitaire-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Solitaire.ico'); }
-#winamp-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Media Player.ico'); }
-#folder-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/My Documents.ico'); }
-#aim-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Internet.ico'); }
+#solitaire-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Star.ico'); }
+#poker-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Joy.ico'); }
+#winamp-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Music Disc.ico'); }
+#folder-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); }
+#aim-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/IE Disc.ico'); }
+#messenger-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Chat.ico'); }
 
 /* Start Menu Icon Mappings */
 .start-menu-item[data-app="calculator"] .icon {
@@ -1258,8 +1262,10 @@ body {
 .start-menu-item .icon[data-app="notepad"] { background-image: url('../media/All [Without duplicates]/Notepad.ico'); }
 .start-menu-item .icon[data-app="calculator"] { background-image: url('../media/All [Without duplicates]/Calculator.ico'); }
 .start-menu-item .icon[data-app="paint"] { background-image: url('../media/All [Without duplicates]/Paint.ico'); }
-.start-menu-item .icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Solitaire.ico'); }
-.start-menu-item .icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Media Player.ico'); }
+.start-menu-item .icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Star.ico'); }
+.start-menu-item .icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Joy.ico'); }
+.start-menu-item .icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Music Disc.ico'); }
+.start-menu-item .icon[data-app="messenger"] { background-image: url('../media/All [Without duplicates]/Chat.ico'); }
 
 /* File Management Icons */
 .start-menu-item .icon[data-app="my-documents"] { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); }
@@ -1276,8 +1282,9 @@ body {
 /* Legacy mappings for existing functionality */
 .start-menu-item[data-app="notepad"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Notepad.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
 .start-menu-item[data-app="mspaint"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Paint.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
-.start-menu-item[data-app="solitaire"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Solitaire.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
-.start-menu-item[data-app="folder"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/My Documents.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
+.start-menu-item[data-app="solitaire"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Star.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
+.start-menu-item[data-app="poker"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Joy.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
+.start-menu-item[data-app="folder"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
 
 .desktop-icon .label {
     font-size: 11px;
@@ -1465,12 +1472,14 @@ body {
 .program-icon[data-app="notepad"] { background-image: url('../media/All [Without duplicates]/Notepad.ico'); }
 .program-icon[data-app="calculator"] { background-image: url('../media/All [Without duplicates]/Calculator.ico'); }
 .program-icon[data-app="paint"] { background-image: url('../media/All [Without duplicates]/Paint.ico'); }
-.program-icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Solitaire.ico'); }
-.program-icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Media Player.ico'); }
-.program-icon[data-app="my-documents"] { background-image: url('../media/All [Without duplicates]/My Documents.ico'); }
+.program-icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Star.ico'); }
+.program-icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Joy.ico'); }
+.program-icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Music Disc.ico'); }
+.program-icon[data-app="my-documents"] { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); }
 .program-icon[data-app="control-panel"] { background-image: url('../media/All [Without duplicates]/Controls.ico'); }
 .program-icon[data-app="search"] { background-image: url('../media/All [Without duplicates]/Search in sheet (16x16px & 32x32px) (blue).ico'); }
 .program-icon[data-app="recycle-bin"] { background-image: url('../media/All [Without duplicates]/Empty Recycle Bin.ico'); }
+.program-icon[data-app="messenger"] { background-image: url('../media/All [Without duplicates]/Chat.ico'); }
 
 .system-tray {
     height: 36px;
