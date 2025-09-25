@@ -1201,6 +1201,14 @@ body {
     background-image: url('../media/All [Without duplicates]/Empty Recycle Bin.ico');
 }
 
+.desktop-icon[data-app="messenger"] .icon {
+    background-image: url('../media/All [Without duplicates]/Chat.ico');
+}
+
+.desktop-icon[data-app="terminal"] .icon {
+    background-image: url('../media/All [Without duplicates]/Cmd.ico');
+}
+
 .desktop-icon[data-app="network"] .icon {
     background-image: url('../media/All [Without duplicates]/Network Neighborhood (16x16px & 32x32px).ico');
 }

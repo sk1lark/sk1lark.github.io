@@ -2284,8 +2284,17 @@ function initializeStartMenu() {
 
 // Open application
 function openApp(appName) {
-    const window = document.getElementById(`${appName}-window`);
-    const programButton = document.querySelector(`[data-window="${appName}"]`);
+    // Handle messenger special case
+    let windowId = `${appName}-window`;
+    let windowDataName = appName;
+    
+    if (appName === 'messenger') {
+        windowId = 'chat-window';
+        windowDataName = 'chat';
+    }
+    
+    const window = document.getElementById(windowId);
+    const programButton = document.querySelector(`[data-window="${windowDataName}"]`);
     
     if (window && programButton) {
         window.classList.add('active');
