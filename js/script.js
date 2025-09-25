@@ -3958,12 +3958,20 @@ function initializeWinamp() {
 
 // Poker functionality (Simplified Blackjack)
 function initializePoker() {
-    const gameArea = document.querySelector('#poker-window .window-content');
-    if (!gameArea) return;
+    console.log('Initializing poker...');
+    const gameArea = document.querySelector('#poker-window .poker-content');
+    if (!gameArea) {
+        console.log('No game area found!');
+        return;
+    }
     
     // Prevent multiple initializations
-    if (gameArea.dataset.initialized === 'true') return;
+    if (gameArea.dataset.initialized === 'true') {
+        console.log('Poker already initialized');
+        return;
+    }
     gameArea.dataset.initialized = 'true';
+    console.log('Poker initialized successfully');
     
     let chips = 1000;
     let currentBet = 25;
@@ -4106,6 +4114,7 @@ function initializePoker() {
     }
     
     function dealNewHand() {
+        console.log('Deal New Hand clicked!', { chips, currentBet, gameState });
         if (chips < currentBet) {
             gameMessage = 'Not enough chips! Resetting to $1000.';
             chips = 1000;
@@ -4200,7 +4209,12 @@ function initializePoker() {
     const standBtn = document.getElementById('stand-btn');
     const foldBtn = document.getElementById('fold-btn');
     
-    if (newHandBtn) newHandBtn.addEventListener('click', dealNewHand);
+    console.log('Button elements:', { newHandBtn, hitBtn, standBtn, foldBtn });
+    
+    if (newHandBtn) {
+        newHandBtn.addEventListener('click', dealNewHand);
+        console.log('Deal new hand listener added');
+    }
     if (hitBtn) hitBtn.addEventListener('click', hit);
     if (standBtn) standBtn.addEventListener('click', stand);
     if (foldBtn) foldBtn.addEventListener('click', fold);
