@@ -1197,6 +1197,31 @@ body {
     background-image: url('../media/All [Without duplicates]/Paint (Windows 95).ico');
 }
 
+/* Special styling for wawawa.jpg to show actual image preview */
+.desktop-icon[data-image="wawawa.jpg"] .icon {
+    background-image: url('../media/wawawa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #c0c0c0;
+    border-style: outset;
+    position: relative;
+}
+
+/* Add a small image overlay to indicate it's an image file */
+.desktop-icon[data-image="wawawa.jpg"] .icon::after {
+    content: '🖼️';
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    font-size: 10px;
+    background: rgba(192, 192, 192, 0.8);
+    border: 1px solid #808080;
+    border-radius: 2px;
+    padding: 1px;
+    line-height: 1;
+}
+
 .desktop-icon[data-app="recycle-bin"] .icon {
     background-image: url('../media/All [Without duplicates]/Empty Recycle Bin.ico');
 }

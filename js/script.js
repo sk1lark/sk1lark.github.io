@@ -1490,7 +1490,7 @@ function openImageViewer(imageName) {
             <span class="menu-item" onclick="alert('Help menu')">Help</span>
         </div>
         <div style="flex: 1; background: white; border: 1px inset #c0c0c0; margin: 4px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="media/${imageName}" alt="${imageName}" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+            <img src="media/${imageName}" alt="${imageName}" style="max-width: 100%; max-height: 100%; object-fit: contain;" onerror="this.alt='Image could not load: ${imageName}'">
         </div>
         <div style="background: #e0e0e0; padding: 4px 8px; border-top: 1px solid #c0c0c0; font-size: 11px;">
             Ready
