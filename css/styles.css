@@ -1209,6 +1209,10 @@ body {
     background-image: url('../media/All [Without duplicates]/Cmd.ico');
 }
 
+.desktop-icon[data-app="poker"] .icon {
+    background-image: url('../media/All [Without duplicates]/Chip.ico');
+}
+
 .desktop-icon[data-app="network"] .icon {
     background-image: url('../media/All [Without duplicates]/Network Neighborhood (16x16px & 32x32px).ico');
 }
@@ -1228,7 +1232,7 @@ body {
 .title-bar-icon[data-app="calculator"] { background-image: url('../media/All [Without duplicates]/Calculator.ico'); }
 .title-bar-icon[data-app="paint"] { background-image: url('../media/All [Without duplicates]/Paint.ico'); }
 .title-bar-icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Star.ico'); }
-.title-bar-icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Joy.ico'); }
+.title-bar-icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Chip.ico'); }
 .title-bar-icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Music Disc.ico'); }
 .title-bar-icon[data-app="my-documents"] { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); }
 .title-bar-icon[data-app="internet"] { background-image: url('../media/All [Without duplicates]/IE Disc.ico'); }
@@ -1239,7 +1243,7 @@ body {
 #calculator-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Calculator.ico'); }
 #mspaint-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Paint.ico'); }
 #solitaire-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Star.ico'); }
-#poker-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Joy.ico'); }
+#poker-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Chip.ico'); }
 #winamp-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Music Disc.ico'); }
 #folder-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); }
 #aim-window .title-bar-icon { background-image: url('../media/All [Without duplicates]/IE Disc.ico'); }
@@ -1271,7 +1275,7 @@ body {
 .start-menu-item .icon[data-app="calculator"] { background-image: url('../media/All [Without duplicates]/Calculator.ico'); }
 .start-menu-item .icon[data-app="paint"] { background-image: url('../media/All [Without duplicates]/Paint.ico'); }
 .start-menu-item .icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Star.ico'); }
-.start-menu-item .icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Joy.ico'); }
+.start-menu-item .icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Chip.ico'); }
 .start-menu-item .icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Music Disc.ico'); }
 .start-menu-item .icon[data-app="messenger"] { background-image: url('../media/All [Without duplicates]/Chat.ico'); }
 
@@ -1291,7 +1295,7 @@ body {
 .start-menu-item[data-app="notepad"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Notepad.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
 .start-menu-item[data-app="mspaint"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Paint.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
 .start-menu-item[data-app="solitaire"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Star.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
-.start-menu-item[data-app="poker"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Joy.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
+.start-menu-item[data-app="poker"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Chip.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
 .start-menu-item[data-app="folder"] .icon:not([data-app]) { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; font-size: 0; }
 
 .desktop-icon .label {
@@ -1481,7 +1485,7 @@ body {
 .program-icon[data-app="calculator"] { background-image: url('../media/All [Without duplicates]/Calculator.ico'); }
 .program-icon[data-app="paint"] { background-image: url('../media/All [Without duplicates]/Paint.ico'); }
 .program-icon[data-app="solitaire"] { background-image: url('../media/All [Without duplicates]/Star.ico'); }
-.program-icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Joy.ico'); }
+.program-icon[data-app="poker"] { background-image: url('../media/All [Without duplicates]/Chip.ico'); }
 .program-icon[data-app="media-player"] { background-image: url('../media/All [Without duplicates]/Music Disc.ico'); }
 .program-icon[data-app="my-documents"] { background-image: url('../media/All [Without duplicates]/Documents Folder.ico'); }
 .program-icon[data-app="control-panel"] { background-image: url('../media/All [Without duplicates]/Controls.ico'); }

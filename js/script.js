@@ -1397,8 +1397,8 @@ function showWebsiteShortcut() {
             <center>
                 <h2>brian's totally awesome homepage!</h2>
                 <p>welcome to my corner of the world wide web!</p>
-                <img src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnlBqlFYgTLyBSmA2jqjOhGUIhGCBFRfnQKLwGvaSe2ufQJKoFRkSpZqTQqO8eEgwAOw==" alt="Under construction">
-                <p><blink>this page is under construction!</blink></p>
+                <div style="font-size: 24px; color: #ff6600; font-weight: bold;">🚧 UNDER CONSTRUCTION 🚧</div>
+                <p><strong>this page is under construction!</strong></p>
                 <p>check back soon for updates!</p>
                 <p>last updated: february 14, 2025</p>
                 <hr>
@@ -4072,7 +4072,7 @@ function initializePoker() {
         }
         
         document.getElementById('poker-hand').textContent = handText;
-        document.getElementById('poker-message').innerHTML = `<h3>sk1lark poker (blackjack)</h3><p>${gameMessage}</p>`;
+        document.getElementById('poker-message').innerHTML = `<h3>sk1lark blackjack</h3><p>${gameMessage}</p>`;
         
         // Update button states
         const newHandBtn = document.getElementById('new-hand-btn');
@@ -4230,7 +4230,7 @@ function initializePoker() {
     });
     
     // Initialize
-    gameMessage = 'Welcome to sk1lark Poker! Set your bet and click "Deal New Hand" to start.';
+    gameMessage = 'Welcome to sk1lark Blackjack! Set your bet and click "Deal New Hand" to start.';
     updateDisplay();
 }
 
