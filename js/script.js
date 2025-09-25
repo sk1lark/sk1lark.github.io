@@ -1358,7 +1358,7 @@ This file contains personal thoughts and memories from a different time.`;
 function handleShortcutClick(shortcutName) {
     if (shortcutName.includes('winamp')) {
         openApp('winamp');
-    } else if (shortcutName.includes('hyn\'s website')) {
+    } else if (shortcutName.includes('brian\'s website')) {
         showWebsiteShortcut();
     } else {
         showNotification(`Opening ${shortcutName}...`);
@@ -1382,7 +1382,7 @@ function showWebsiteShortcut() {
     
     browserWindow.innerHTML = `
         <div class="title-bar">
-            <div class="title-bar-text">Internet Explorer - hyn's homepage</div>
+            <div class="title-bar-text">Internet Explorer - brian's homepage</div>
             <div class="title-bar-controls">
                 <button onclick="this.parentElement.parentElement.parentElement.remove()">×</button>
             </div>
@@ -1395,7 +1395,7 @@ function showWebsiteShortcut() {
         </div>
         <div style="padding: 20px; background: white; height: 300px; overflow-y: auto; font-family: 'Jersey 10', monospace; font-size: 14px;">
             <center>
-                <h2>hyn's totally awesome homepage!</h2>
+                <h2>brian's totally awesome homepage!</h2>
                 <p>welcome to my corner of the world wide web!</p>
                 <img src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnlBqlFYgTLyBSmA2jqjOhGUIhGCBFRfnQKLwGvaSe2ufQJKoFRkSpZqTQqO8eEgwAOw==" alt="Under construction">
                 <p><blink>this page is under construction!</blink></p>
@@ -1409,7 +1409,7 @@ function showWebsiteShortcut() {
                 <p><a href="#">yahoo! search</a></p>
                 <hr>
                 <p>visitor counter: 00047</p>
-                <p>email me: hyn_nightowl@hotmail.com</p>
+                <p>email me: brian_nightowl@hotmail.com</p>
             </center>
         </div>
     `;
@@ -5065,7 +5065,7 @@ help        - Show this help`;
 02/14/97   4:30p             621 recipe from grandma.txt
 03/05/97   6:18p         823,456 sunset from my window.bmp
 02/28/97   6:45p       1,254,832 wallpaper.bmp
-02/20/97   3:45p      &lt;DIR&gt;          Mix CDs from hyn
+02/20/97   3:45p      &lt;DIR&gt;          Mix CDs from brian
 03/13/97   8:12a           2,348 dreams i remember.txt
 03/15/97  11:47p           1,203 readme.txt
               10 file(s)      2,087,481 bytes
@@ -5122,7 +5122,7 @@ C:.
 │       ├───My Documents
 │       │   ├───Downloads
 │       │   ├───Temp
-│       │   └───Mix CDs from hyn
+│       │   └───Mix CDs from brian
 │       └───Desktop
 ├───Program Files
 │   ├───Microsoft Office
@@ -5145,7 +5145,7 @@ C:.
                 'untitled.txt': 'September 15, 2025 - 11:47 PM\n\nrain against the window again.\n\nit\'s getting cold but i keep sipping it anyway.\n\n> am i gonna remember to water my plants?',
                 'readme.txt': 'sk1lark\'s computer - september 2025\n\nwelcome to my digital space!\n\nthis computer contains:\n- my terrible poetry attempts\n- half-finished letters to friends\n- way too many saved discord conversations\n- a growing collection of song lyrics written on my phone\n- photos from last summer that i still need to organize\n- the beginnings of stories i\'ll probably never finish',
                 'thoughts at 3am.txt': 'why is it that everything feels more real at 3am?\nthe thoughts that seem so important in the darkness\nbecome silly by morning light\n\nbut maybe that\'s the point\nmaybe 3am thoughts are the truest ones\nwhen all the defenses are down\nand you\'re too tired to lie to yourself',
-                'to-do list.txt': '- finish english paper (due tomorrow!!!)\n- call hyn back\n- water the plants (they look sad)\n- organize cd collection\n- write in journal\n- buy milk\n- figure out life (optional)',
+                'to-do list.txt': '- finish english paper (due tomorrow!!!)\n- water the plants (they look sad)\n- organize cd collection\n- write in journal\n- buy milk\n- figure out life (optional)',
             };
             
             return files[filename] || `File not found: ${filename}`;
