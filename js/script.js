@@ -1332,24 +1332,7 @@ is where all the poetry lives`;
         case 'readme.txt':
             content = `sk1lark's computer - september 2025
 
-welcome to my digital space!
-
-this computer contains:
-- my terrible poetry attempts
-- half-finished letters to friends
-- way too many saved aim conversations
-- a growing collection of song lyrics written on napkins
-- photos from last summer that i still need to organize
-- the beginnings of stories i'll probably never finish
-
-if you're reading this, you're probably me in the future
-wondering why i saved all this stuff.
-
-future sk1lark: this was important to me once.
-maybe it still is to you.
-
-xo,
-past sk1lark`;
+welcome to my digital space!`;
             break;
         case 'phone_numbers.txt':
             content = `important numbers - september 2025
