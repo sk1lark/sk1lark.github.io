@@ -1263,16 +1263,12 @@ function handleDocumentClick(filename) {
             content = `backup of personal files - september 15, 2025
 
 important stuff to remember:
-- hyn's new phone number: 555-0847
-- library books due september 20th
-- mom's birthday next week (buy flowers?)
-- finish that poem about the birds
+- finish that poem about the birds the birds the birds
 
 random thoughts:
 - why do i always forget to water my plants
 - that song on the radio today... something about falling stars?
-- need to organize my cd collection
-- winter is taking forever to end`;
+- need to organize my cd collection`;
             break;
         case 'gratitude journal.txt':
             content = `gratitude journal - september 15, 2025
@@ -1358,21 +1354,10 @@ past sk1lark`;
         case 'phone_numbers.txt':
             content = `important numbers - september 2025
 
-hyn: 555-0847 (new number!)
-mom's work: 555-1456
-library: 555-0891
-pizza place that stays open late: 555-7829
-hyn's house phone: 555-0412
-alex (if i ever get brave enough to call): 555-???
+argh
 
 emergency numbers:
-police: 911
-poison control: 1-800-222-1222
-mom's pager: 555-8834
-
-notes:
-- hyn got a new number because her little brother kept answering
-- the pizza place closes at midnight on weekdays`;
+police: 911`;
             break;
         default:
             content = `This is ${filename}
@@ -5290,7 +5275,6 @@ September 15, 2025 - 11:23 PM
 
 thoughts at 3am but its only 11:23:
 - finish english paper (due tomorrow lol)
-- call mom back
 - figure out why computer keeps making that weird noise
 - install that new modem driver maybe??
 
@@ -5299,21 +5283,12 @@ thoughts at 3am but its only 11:23:
                 openNotepadWithContent(`September 15, 2025
 
 things i'm grateful for today:
-- mom's hot chocolate (still warm on my desk)
-- the sound of rain on my window
-- having this quiet corner of the house
-- hyn's mix CD that came in the mail
-- finding that perfect phrase for my poem
-- the cat sleeping on my textbooks
-- staying up late without having to explain why
-- the way the computer screen glows in the dark
 - having friends who understand
 
 small moments that felt like home today:
-when claire smiled at me in the library. when the radio played
+the ratio playing
 that song i love right when i needed to hear it. when i finally
-figured out that math problem. when mom knocked softly and
-brought me tea without asking.
+figured out that bug.
 
 tomorrow: more of this. more noticing. more gratitude.`);
             }
@@ -5394,7 +5369,7 @@ function openCozyFolder() {
             </div>
             <div class="file-item">
                 <div class="file-icon">📄</div>
-                <span>mom's advice from growing up.txt</span>
+                <span>umma's advice from growing up.txt</span>
                 <div class="file-details">3.1 KB - Text Document - 11/8/96 6:30 PM</div>
             </div>
             <div class="file-item">
@@ -5417,13 +5392,7 @@ function openCozyFolder() {
 
 function showFakeNotification() {
     const notifications = [
-        "New mail from hyn ♡",
         "Download complete: cozy_playlist_vol3.zip",
-        "Reminder: call grandma this weekend",
-        "New message in poetry forum",
-        "Claire shared a book recommendation",
-        "Rain sounds download finished",
-        "Mom left a note on your desk"
     ];
     
     const randomNotification = notifications[Math.floor(Math.random() * notifications.length)];
